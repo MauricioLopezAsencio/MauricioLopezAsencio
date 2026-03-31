@@ -5,9 +5,8 @@
 
 <br/>
 
-<img src="foto.png" width="120" style="border-radius:50%" />
 
-### 👋 ¡Hola! Soy Mauricio
+###  ¡Hola! Soy Mauricio
 
 [![Gmail](https://img.shields.io/badge/✉️%20Mauriciolopezasencio@gmail.com-0a2a6e?style=for-the-badge&logoColor=white)](mailto:Mauriciolopezasencio@gmail.com)
 
@@ -20,7 +19,7 @@
 
 ---
 
-## 🙋 Sobre mí
+##  Sobre mí
 
 > Me apasiona construir software que resuelve problemas reales — desde APIs robustas con **.NET y Spring Boot** hasta interfaces modernas con **Angular**. Siempre buscando automatizar lo que se pueda automatizar 🚀
 
@@ -35,7 +34,7 @@ contacto:    Mauriciolopezasencio@gmail.com
 
 ---
 
-## 💻 Mi Tech Stack
+##  Mi Tech Stack
 
 <div align="center">
 
@@ -52,7 +51,7 @@ contacto:    Mauriciolopezasencio@gmail.com
 
 ---
 
-## 🗓 Mi semana típica
+##  Mi semana típica
 
 ```
 🔧 Tickets & Bugs           40%  ████████████████░░░░░░░░░░░░░░░░░░░░░░░░
@@ -63,7 +62,7 @@ contacto:    Mauriciolopezasencio@gmail.com
 
 ---
 
-## 📊 Mis KPIs
+##  Mis KPIs
 
 <div align="center">
 
@@ -97,7 +96,7 @@ contacto:    Mauriciolopezasencio@gmail.com
 
 ---
 
-## 🎓 Lo que he aprendido
+##  Lo que he aprendido
 
 | # | Curso |
 |:-:|-------|
@@ -109,7 +108,7 @@ contacto:    Mauriciolopezasencio@gmail.com
 
 ---
 
-## 🏆 Meta 2025
+##  Meta 2026
 
 <div align="center">
 
