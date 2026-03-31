@@ -21,7 +21,7 @@
 
 ##  Sobre mí
 
-> Me apasiona construir software que resuelve problemas reales — desde APIs robustas con **.NET y Spring Boot** hasta interfaces modernas con **Angular**. Siempre buscando automatizar lo que se pueda automatizar 🚀
+> Me apasiona construir software que resuelve problemas reales — desde APIs robustas con **.NET y Spring Boot** hasta interfaces modernas con **Angular**. Siempre buscando automatizar lo que se pueda automatizar 
 
 ```yaml
 puesto:      Consultor Jr. .NET
@@ -78,7 +78,7 @@ contacto:    Mauriciolopezasencio@gmail.com
 
 ---
 
-## 🛤 Mi camino hasta hoy
+## Mi camino hasta hoy
 
 <div align="center">
 
