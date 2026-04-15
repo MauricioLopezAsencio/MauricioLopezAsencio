@@ -1,0 +1,84 @@
+name: Update Experience
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'   # Corre el día 1 de cada mes
+  workflow_dispatch:        # Permite ejecución manual
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Calcular experiencia desde 20/06/2022
+        id: exp
+        run: |
+          python3 << 'EOF'
+          import os
+          from datetime import date
+
+          start = date(2022, 6, 20)
+          today = date.today()
+
+          months = (today.year - start.year) * 12 + (today.month - start.month)
+          if today.day < start.day:
+              months -= 1
+
+          years = months // 12
+          rem   = months % 12
+
+          if years > 0 and rem > 0:
+              label     = f"{years} año{'s' if years > 1 else ''} {rem} mes{'es' if rem > 1 else ''}"
+              label_url = f"{years}+año{'s' if years > 1 else ''}+{rem}+mes{'es' if rem > 1 else ''}"
+          elif years > 0:
+              label     = f"{years} año{'s' if years > 1 else ''}"
+              label_url = f"{years}+año{'s' if years > 1 else ''}"
+          else:
+              label     = f"{rem} mes{'es' if rem > 1 else ''}"
+              label_url = f"{rem}+mes{'es' if rem > 1 else ''}"
+
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              f.write(f"LABEL={label}\n")
+              f.write(f"LABEL_URL={label_url}\n")
+          EOF
+
+      - name: Actualizar README
+        run: |
+          python3 << 'EOF'
+          import re
+
+          label     = "${{ steps.exp.outputs.LABEL }}"
+          label_url = "${{ steps.exp.outputs.LABEL_URL }}"
+
+          with open("README-mauricioLopezAsencio.md", "r", encoding="utf-8") as f:
+              content = f.read()
+
+          # Reemplaza en el typing SVG (formato URL con +)
+          content = re.sub(
+              r'Consultor\+Jr\.\+\.NET\+%7C\+[\d]+\+año[s]?(?:\+[\d]+\+mes(?:es)?)?',
+              f'Consultor+Jr.+.NET+%7C+{label_url}',
+              content
+          )
+
+          # Reemplaza en el bloque yaml (texto plano)
+          content = re.sub(
+              r'(experiencia:\s*)[\d]+ año[s]?(?: [\d]+ mes(?:es)?)?',
+              f'\\g<1>{label}',
+              content
+          )
+
+          with open("README-mauricioLopezAsencio.md", "w", encoding="utf-8") as f:
+              f.write(content)
+
+          print(f"Experiencia actualizada a: {label}")
+          EOF
+
+      - name: Commit si hay cambios
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README-mauricioLopezAsencio.md
+          git diff --staged --quiet || git commit -m "chore: actualizar experiencia a ${{ steps.exp.outputs.LABEL }}"
+          git push
