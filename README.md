@@ -49,8 +49,12 @@ contacto:    Mauriciolopezasencio@gmail.com
 
 <div align="center">
 
-<!-- ICONOS ANIMADOS con skill-icons -->
-[![My Skills](https://skillicons.dev/icons?i=cs,java,ts,js,dotnet,spring,angular,postgres,mysql,docker,github,vscode,visualstudio,idea,postman,aws&perline=8)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=cs,java,ts,js,dotnet,spring,angular,react,postgres,mysql,docker,github,vscode,visualstudio,idea,postman,aws,firebase&perline=9)](https://skillicons.dev)
+
+<br/>
+
+<img src="https://img.shields.io/badge/PrimeFaces-0f6ab4?style=for-the-badge&logo=java&logoColor=white"/>
+<img src="https://img.shields.io/badge/PrimeNG-DD0031?style=for-the-badge&logo=angular&logoColor=white"/>
 
 <br/><br/>
 
@@ -71,6 +75,19 @@ contacto:    Mauriciolopezasencio@gmail.com
       <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white"/>
       <img src="https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white"/>
       <img src="https://img.shields.io/badge/PrimeFaces-0f6ab4?style=flat-square&logo=java&logoColor=white"/>
+      <img src="https://img.shields.io/badge/PrimeNG-DD0031?style=flat-square&logo=angular&logoColor=white"/>
+      <img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+      <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Cloud & DB</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black"/>
+      <img src="https://img.shields.io/badge/Firestore-FF6F00?style=flat-square&logo=firebase&logoColor=white"/>
+      <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white"/>
+      <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
+      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
     </td>
   </tr>
   <tr>
@@ -120,11 +137,93 @@ contacto:    Mauriciolopezasencio@gmail.com
 
 ---
 
-## 🏆 Trofeos
+## 🗂️ Proyectos personales
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=MauricioLopezAsencio&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">📋 Bitácora Frontend</h3>
+      <p align="center">
+        <a href="https://github.com/MauricioLopezAsencio/bitacora-front">
+          <img src="https://img.shields.io/badge/Ver_repositorio-181717?style=for-the-badge&logo=github&logoColor=white"/>
+        </a>
+      </p>
+      <p>Plataforma interna de registro de actividades laborales integrada con <b>Microsoft 365</b> y el sistema SCO.</p>
+      <ul>
+        <li>Login con JWT + renovación automática</li>
+        <li>Consulta y registro de eventos desde el calendario de Microsoft</li>
+        <li>Gestión de empleados, herramientas y correos</li>
+      </ul>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Angular_17-DD0031?style=flat-square&logo=angular&logoColor=white"/>
+        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white"/>
+        <img src="https://img.shields.io/badge/PrimeNG-DD0031?style=flat-square&logo=angular&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Bootstrap_5-7952b3?style=flat-square&logo=bootstrap&logoColor=white"/>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">⚙️ Bitácora Backend</h3>
+      <p align="center">
+        <a href="https://github.com/MauricioLopezAsencio/bitacora-back-end">
+          <img src="https://img.shields.io/badge/Ver_repositorio-181717?style=for-the-badge&logo=github&logoColor=white"/>
+        </a>
+      </p>
+      <p>API REST middleware entre <b>Microsoft Graph API</b>, <b>SCO/Bitácora</b> y una base de datos propia en Supabase.</p>
+      <ul>
+        <li>Empareja eventos del calendario con proyectos SCO</li>
+        <li>Registro anti-traslape automático de actividades</li>
+        <li>CI/CD con GitHub Actions → AWS EC2</li>
+      </ul>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Java_17-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Spring_Boot_3.2-6DB33F?style=flat-square&logo=spring-boot&logoColor=white"/>
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+        <img src="https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazonaws&logoColor=white"/>
+      </p>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+---
+
+## 🤝 Colaboraciones
+
+<div align="center">
+
+<table>
+  <tr>
+    <td valign="top">
+      <h3 align="center">📦 Inventory App</h3>
+      <p align="center">
+        <a href="https://github.com/jdelfinsosa/Inventario-app">
+          <img src="https://img.shields.io/badge/Ver_repositorio-181717?style=for-the-badge&logo=github&logoColor=white"/>
+        </a>
+      </p>
+      <p>App móvil de control de inventario con conteos por turno y ubicación, detección de diferencias, reconteo pendiente y módulo de administración con roles.</p>
+      <ul>
+        <li>Conteo por turno (mañana/tarde) y ubicación con estado de progreso</li>
+        <li>Stock real vs contado — detección automática de diferencias</li>
+        <li>Flujo de reconteo para resolver discrepancias</li>
+        <li>Módulo admin: CRUD de productos, ubicaciones y usuarios</li>
+        <li>Roles <code>admin</code> / <code>operador</code> con accesos diferenciados</li>
+        <li>Autenticación con Firebase Auth + datos en Firestore</li>
+      </ul>
+      <p align="center">
+        <img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+        <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white"/>
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+        <img src="https://img.shields.io/badge/Firebase_Auth-FFCA28?style=flat-square&logo=firebase&logoColor=black"/>
+        <img src="https://img.shields.io/badge/Firestore-FF6F00?style=flat-square&logo=firebase&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Node.js_18+-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
+      </p>
+    </td>
+  </tr>
+</table>
 
 </div>
 
@@ -219,19 +318,6 @@ contacto:    Mauriciolopezasencio@gmail.com
 
 ---
 
-## 🐍 Actividad
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MauricioLopezAsencio/MauricioLopezAsencio/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MauricioLopezAsencio/MauricioLopezAsencio/output/github-contribution-grid-snake.svg" />
-  <img alt="snake animation" src="https://raw.githubusercontent.com/MauricioLopezAsencio/MauricioLopezAsencio/output/github-contribution-grid-snake-dark.svg" />
-</picture>
-
-</div>
-
----
 
 ## 🎯 Meta 2026
 
