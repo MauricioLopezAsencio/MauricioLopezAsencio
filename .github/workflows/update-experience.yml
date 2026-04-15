@@ -8,9 +8,13 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Calcular experiencia desde 20/06/2022
         id: exp
@@ -46,13 +50,21 @@ jobs:
 
       - name: Actualizar README
         run: |
+          find . -name "README.md" | head -5
           python3 << 'EOF'
-          import re
+          import re, os, glob
 
           label     = "${{ steps.exp.outputs.LABEL }}"
           label_url = "${{ steps.exp.outputs.LABEL_URL }}"
 
-          with open("README.md", "r", encoding="utf-8") as f:
+          matches = glob.glob("**/README.md", recursive=True)
+          if not matches:
+              print("ERROR: README.md no encontrado")
+              exit(1)
+          filepath = matches[0]
+          print(f"Archivo encontrado: {filepath}")
+
+          with open(filepath, "r", encoding="utf-8") as f:
               content = f.read()
 
           # Reemplaza en el typing SVG (formato URL con +)
