@@ -4,7 +4,7 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:050d1a,40:0a2a6e,80:1a4fb5,100:0d2a7a&height=280&section=header&text=Mauricio%20L%C3%B3pez%20Asencio&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=👋%20Dev%20.NET%20%7C%20Java%20%2B%20Spring%20Boot%20%7C%20Cloud%20Learner&descSize=18&descAlignY=58&descColor=93c5fd&animation=fadeIn)
 
 <!-- TYPING ANIMADO -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=4A9EFF&center=true&vCenter=true&random=false&width=600&lines=Hola%2C+soy+Mauricio+%F0%9F%91%8B;Consultor+Jr.+.NET+%7C+3+años+9+meses;Apasionado+por+automatizar+todo+%F0%9F%A4%96;Rumbo+a+AWS+Certified+%E2%98%81%EF%B8%8F)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=4A9EFF&center=true&vCenter=true&random=false&width=600&lines=Hola%2C+soy+Mauricio+%F0%9F%91%8B;Consultor+Jr.+.NET+%7C+3+años+10+meses;Apasionado+por+automatizar+todo+%F0%9F%A4%96;Rumbo+a+AWS+Certified+%E2%98%81%EF%B8%8F)](https://git.io/typing-svg)
 
 <br/>
 
@@ -35,7 +35,7 @@
 puesto:      Consultor Jr. .NET
 área:        Desarrollo de Software
 estudios:    Ingeniería en Sistemas Computacionales
-experiencia: 3 años 9 meses
+experiencia: 3 años 10 meses
 intereses:
   - Automatización de procesos
   - Cloud Computing (AWS)
